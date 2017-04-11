@@ -1,5 +1,9 @@
 package banking.primitive.core;
 
+/**
+ *  Class: Savings
+ * Description: This class represents a savings account. It is a child of the Account class and a sibling of the Checking class. 
+ */
 public class Savings extends Account {
 	private static final long serialVersionUID = 111L;
 	private int numWithdraws = 0;
